@@ -1,2 +1,7 @@
-# microcamp
-This repository contains all the code used by me while teaching Front-End and/or Back-End technologies.
+# Microcamp
+
+This repository contains some of the code I use to teach my students **Front-End** and/or **Back-End** technologies, integrating them with MySQL as the main database.
+
+- HTML5
+- CSS3
+- JavaScript
