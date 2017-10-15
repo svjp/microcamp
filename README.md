@@ -1,4 +1,4 @@
-![Microcamp](./docs/microcamp.png)
+![Microcamp](./docs/tecnologias.png)
 
 # Materiais complementares dos módulos de programação
 
@@ -18,7 +18,6 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 - [Web Design Responsivo](./web-design-responsivo)
 - [Controladores de Versão](./versionamento-de-projetos)
 - [Padrões de Código](./padroes-de-codigo)
-- [Gerenciadores de Tarefa](./padroes-de-codigo)
 
 ## Referências
 
