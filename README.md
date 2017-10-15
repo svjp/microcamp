@@ -1,6 +1,6 @@
 ![Microcamp](./docs/microcamp.png)
 
-# Alguns materiais complementares para ajudar no módulo de programação do curso de informática
+# Materiais complementares dos módulos de programação
 
 Aqui colocarei referências (nacionais e internacionais) de artigos, tendências de mercado, também exemplos de aplicações do mundo real, utilizando as tecnologias aprendidas no curso.
 
