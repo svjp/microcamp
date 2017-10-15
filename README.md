@@ -7,6 +7,7 @@ Aqui colocarei referências (nacionais e internacionais) de artigos, tendências
 ## Por quê?
 
 Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessidades do mercado de trabalho, pensando nisso, eu quis fazer este guia para auxiliar meus alunos e/ou qualquer um interessado neste material, a compreender estruturas de linguagens mais avançadas junto a exemplos da vida real e tendências entre agências e empresas corporativas.
+
 ## Sumário
 
 - [JavaScript](./javascript/)
@@ -18,4 +19,11 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 - [Controladores de Versão](./versionamento-de-projetos)
 - [Padrões de Código](./padroes-de-codigo)
 - [Gerenciadores de Tarefa](./padroes-de-codigo)
-- [Referências](./referencias)
+
+## Referências
+
+- JavaScript
+	- Livros
+		- https://github.com/braziljs/eloquente-javascript
+	- Programadores
+		- https://github.com/suissa
