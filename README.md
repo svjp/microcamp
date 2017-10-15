@@ -1,8 +1,8 @@
 # ![Microcamp](./docs/tecnologias.png)
 
-Este repositório conterá diversos exemplos de aplicações da vida real, fazendo uso das tecnologias apresentadas aqui, colocarei links para que você possa consultar boas práticas de desenvolvimento web, tutoriais de novas tecnologias que são tendências em agências e empresas corporativas, perfils de alguns dos melhores desenvolvedores do mundo, entre outros.
+Este repositório conterá diversos exemplos de aplicações da vida real, fazendo uso das tecnologias apresentadas aqui, colocarei links para que você possa consultar boas práticas de desenvolvimento web, tutoriais de novas tecnologias que são tendências em agências e empresas corporativas, perfis de alguns dos melhores desenvolvedores do mundo, entre outros.
 
-O foco deste projeto é ajudar aos interessados na área de programação a criarem bons hábitos de desenvolvimento, além de apresentar certas tecnologias e conceitos que fogem do escopo do curso. Deixando-o assim, ainda mais preparado para o mercado de trabalho. :wink::punch:
+O foco deste projeto é ajudar aos interessados na área de programação a criarem bons hábitos de desenvolvimento, além de apresentar certas tecnologias e conceitos que fogem do escopo do curso, deixando-o assim, ainda mais preparado para o mercado de trabalho. :wink::punch:
 
 ## Por quê?
 
