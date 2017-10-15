@@ -1,8 +1,8 @@
-![Microcamp](./docs/tecnologias.png)
+# ![Microcamp](./docs/tecnologias.png)
 
-# Materiais complementares dos módulos de programação
+Este repositório conterá diversos exemplos de aplicações da vida real, fazendo uso das tecnologias apresentadas aqui, colocarei links para que você possa consultar boas práticas de desenvolvimento web, tutoriais de novas tecnologias que são tendências em agências e empresas corporativas, perfils de alguns dos melhores desenvolvedores do mundo, entre outros.
 
-Aqui colocarei referências (nacionais e internacionais) de artigos, tendências de mercado, também exemplos de aplicações do mundo real, utilizando as tecnologias aprendidas no curso.
+O foco deste projeto é ajudar aos interessados na área de programação a criarem bons hábitos de desenvolvimento, além de apresentar certas tecnologias e conceitos que fogem do escopo do curso. Deixando-o assim, ainda mais preparado para o mercado de trabalho. :wink::punch:
 
 ## Por quê?
 
