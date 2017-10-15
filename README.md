@@ -17,7 +17,6 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 	- [Aula 10 - Validação de Formulários](./javascript/aula-10/)
 - [Web Design Responsivo](./web-design-responsivo)
 - [Controladores de Versão](./versionamento-de-projetos)
-- [Padrões de Código](./padroes-de-codigo)
 
 ## Referências
 
@@ -26,3 +25,6 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 		- https://github.com/braziljs/eloquente-javascript
 	- Programadores
 		- https://github.com/suissa
+- Padrões de Código
+	- [HTML5](https://github.com/necolas/idiomatic-html)
+	- [CSS3](https://github.com/necolas/idiomatic-css)
