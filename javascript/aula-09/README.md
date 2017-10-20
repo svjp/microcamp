@@ -142,6 +142,8 @@ console.log(link[0].textContent);
 
 O método `querySelector()` é uma combinação de todas os métodos anteriores, ou seja, o resultado de todos os exemplos anteriores funcionarão se substituírmos seus respectivos métodos por `querySelector()`.
 
+> Lembrando que você precisará utilizar o carácter `#` e `.` assim como no CSS, para definir se o seletor é pela ID ou classe.
+
 | ![Negro Beleza](./../../docs/gifs/negro.gif) |
 | :---: |
 | Aí sim, agora eu ví valor :smile: |
