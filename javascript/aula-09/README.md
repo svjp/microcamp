@@ -7,7 +7,7 @@ O acrônimo **DOM** vem do inglês *Document Object Model* é responsável por m
 ## Sumário
 
 - [getElements*()](#getelements)
-	- getElementsById()
+	- getElementById()
 	- getElementsByTagName()
 	- getElementsByName()
 	- getElementsClassName()
@@ -21,14 +21,14 @@ O acrônimo **DOM** vem do inglês *Document Object Model* é responsável por m
 
 A tradução literal para *get elements* seria algo como *pegar/agarrar elementos*, e isso é exatamente o que ele faz, ele intervê diretamente em um elemento e/ou propriedade de uma página, possibilitando-nos manipulá-lo como queiramos.
 
-- **getElementsById()** - Seleciona um elemento `x` pela sua ID.
+- **getElementById()** - Seleciona um elemento `x` pela sua ID.
 
 ```html
 <!DOCTYPE html>
 <html lang="pt">
 <head>
 	<meta charset="UTF-8">
-	<title>getElementsById</title>
+	<title>getElementById</title>
 </head>
 <body>
 	
@@ -38,7 +38,7 @@ A tradução literal para *get elements* seria algo como *pegar/agarrar elemento
 	<li>Menu 3</li>
 </ul>
 
-<script src="./getElementsById.js"></script>
+<script src="./getElementById.js"></script>
 
 </body>
 </html>
@@ -46,9 +46,9 @@ A tradução literal para *get elements* seria algo como *pegar/agarrar elemento
 
 ```javascript
 // getElementsById.js
-var link = window.document.getElementsById('menu-2');
+var link = window.document.getElementById('menu-2');
 
-console.log(link.value);
+console.log(link.innerHTML);
 ```
 
 - **getElementsByTagName()** - Seleciona um elemento `x` pelo nome de sua Tag.
@@ -77,8 +77,7 @@ console.log(link.value);
 ```javascript
 // getElementsByTagName.js
 var links = window.document.getElementsByTagName('li');
-
-console.log(links.value);
+console.log(links);
 ```
 
 - **getElementsByName()** - Seleciona um elemento `x` pela sua propriedade `name`, esse método normalmente é usado em tratamento de dados apartir do client-side com JavaScript.
@@ -92,11 +91,9 @@ console.log(links.value);
 </head>
 <body>
 	
-<form id="contato">
-	<input type="text" name="nome">
-	<input type="text" name="email">
-	<button>Enviar</button>
-</form>
+<input type="text" name="nome">
+<input type="text" name="email">
+<button>Enviar</button>
 
 <script src="./getElementsByName.js"></script>
 
@@ -106,10 +103,8 @@ console.log(links.value);
 
 ```javascript
 // getElementsByName.js
-var nome = window.document.getElementsByName('nome');
-
-document.getElementByTagName('button').addEventListener('click', function() {
-	console.log(nome.value);
+document.querySelector('button').addEventListener('click', function() {
+	console.log(document.getElementsByName('nome')[0].value);
 });
 ```
 
@@ -120,7 +115,7 @@ document.getElementByTagName('button').addEventListener('click', function() {
 <html lang="pt">
 <head>
 	<meta charset="UTF-8">
-	<title>getElementsByClass</title>
+	<title>getElementsByClassName</title>
 </head>
 <body>
 	
@@ -130,17 +125,17 @@ document.getElementByTagName('button').addEventListener('click', function() {
 	<li>Menu 3</li>
 </ul>
 
-<script src="./getElementsByClass.js"></script>
+<script src="./getElementsByClassName.js"></script>
 
 </body>
 </html>
 ```
 
 ```javascript
-// getElementsByClass.js
-var link = window.document.getElementsByClass('li');
+// getElementsByClassName.js
+var link = window.document.getElementsByClassName('menu-2');
 
-console.log(link.value);
+console.log(link[0].textContent);
 ```
 
 ## `querySelector()`
@@ -201,3 +196,7 @@ Então, `textAlign != textalign` e `getElementsById != getelementsbyid`, é bom 
 
 - https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM
 - https://pt.wikipedia.org/wiki/CamelCase
+- https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp
+- https://www.w3schools.com/jsref/met_doc_getelementsbyname.asp
+- https://www.w3schools.com/jsref/met_element_getelementsbytagname.asp
+- https://www.w3schools.com/jsref/met_document_getelementbyid.asp
