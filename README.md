@@ -21,6 +21,8 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 ## Referências
 
 - JavaScript
+	- Guias
+		- https://github.com/braziljs/js-the-right-way
 	- Livros
 		- https://github.com/braziljs/eloquente-javascript
 	- Programadores
