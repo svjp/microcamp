@@ -8,4 +8,9 @@ document.querySelector('#cadastro').addEventListener('submit', function(event) {
 			event.preventDefault();
 		}
 	}
+
+	/** Verifica se todos os campos são válidos, se sim joga um alert */
+	if (event.defaultPrevented != true) {
+		alert('Formulário enviado com sucesso!');
+	}
 });
