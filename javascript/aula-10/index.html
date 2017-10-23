@@ -3,16 +3,51 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Validação do Formulário</title>
+	<style>
+		.container {
+			max-width: 400px;
+			margin: 0 auto;
+		}
+
+		form input {
+			display: block;
+			width: 100%;
+			padding: 20px;
+			margin-bottom: 30px;
+		}
+
+		form submit {
+			width: 100%;
+		}
+
+		span {
+			padding: 10px 20px;
+			float: left;
+			background: red;
+			color: #ffffff;
+		}
+	</style>
 </head>
 <body>
 
-<form action="#" id="cadastro" method="post">
-	<input type="text" name="nome" placeholder="Nome"> <br><br>
-	<input type="text" name="email" placeholder="E-mail"> <br><br>
-	<input type="text" name="data" placeholder="Data"> <br><br>
-	<input type="text" name="cnpj" placeholder="CNPJ"> <br><br>
-	<input type="submit" value="Enviar">
-</form>
+<div class="container">
+	<h1>Formulário de Contato</h1>
+	<form action="#" id="cadastro" method="post">
+		<label for="Nome">
+			<input type="text" name="nome" placeholder="Nome">
+		</label>
+		<label for="E-mail">
+			<input type="text" name="email" placeholder="E-mail">
+		</label>
+		<label for="Data">
+			<input type="date" name="data" placeholder="Data">
+		</label>
+		<label for="CNPJ">
+			<input type="text" name="cnpj" placeholder="CNPJ">
+		</label>
+		<input type="submit">
+	</form>
+</div>
 
 <script src="validation.js"></script>
 
