@@ -4,20 +4,41 @@
 	<meta charset="UTF-8">
 	<title>Validação do Formulário</title>
 	<style>
+		* {
+			box-sizing: border-box;
+		}
+
 		.container {
-			max-width: 400px;
+			width: 500px;
 			margin: 0 auto;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -364px;
+			padding: 104px 0;
+			margin-left: -260px;
 		}
 
 		form input {
-			display: block;
 			width: 100%;
+			display: block;
 			padding: 20px;
 			margin-bottom: 30px;
 		}
 
-		form submit {
-			width: 100%;
+		form input[type="submit"] {
+			background: #222222;
+			color: #ffffff;
+			border: 0;
+			transition: .3s;
+			outline: 0;
+		}
+
+		form input[type="submit"]:hover {
+			background: none;
+			color: #222222;
+			border: 2px solid #222222;
+			transition: .3s;
 		}
 
 		span {

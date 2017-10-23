@@ -17,6 +17,7 @@ document.querySelector('#cadastro').addEventListener('submit', function(event) {
 					/** Verifica se já existe um elemento span e não adiciona mais */
 					if (element !== 'span') {
 						input[i].parentElement.insertAdjacentHTML('afterbegin', '<span>O campo ' + input[i].name + ' é inválido.</span>');
+						input[i].style.border = '1px solid red';
 					}
 
 					/** Bloqueia o envio do formulário */
