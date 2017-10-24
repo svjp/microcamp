@@ -2,12 +2,11 @@
 document.querySelector('#cadastro').addEventListener('submit', function(event) {
 	var input = document.querySelectorAll('input'),
 	    criterios = {
-			'nome': new RegExp(/^[A-Za-zà-ú_ ]{3,}$/),
-			'email': new RegExp(/^[a-z0-9]{4,}\@[a-z]{4,}\.[a-z]{3,}(\.[a-z]{2,})?$/),
-			'data': new RegExp(/^[0-9]{4}\-[0-9]{2}\-[0-9]{2}$/),
-			'cnpj': new RegExp(/^[0-9]{2}\.[0-9]{3}\.[0-9]{3}\/[0-9]{4}\-[0-9]{2}$/)
-		};
-
+				'nome': new RegExp(/^[A-Za-zà-ú_ ]{3,}$/),
+				'email': new RegExp(/^[a-z0-9]{4,}\@[a-z]{4,}\.[a-z]{3,}(\.[a-z]{2,})?$/),
+				'data': new RegExp(/^[0-9]{4}\-[0-9]{2}\-[0-9]{2}$/),
+				'cnpj': new RegExp(/^[0-9]{2}\.[0-9]{3}\.[0-9]{3}\/[0-9]{4}\-[0-9]{2}$/)
+			};
 
 	for (var i = 0; i < input.length - 1; i++) {
 		for (var propriedade in criterios) {
@@ -56,7 +55,7 @@ document.querySelector('#cadastro').addEventListener('submit', function(event) {
 	/*********************************
 	 * E-mail: meuemail22@server.com *
 	 *********************************/
-	// if (/^[a-z]{4,}\@[a-z]{4,}\.[a-z]{3,}(\.[a-z]{2,})?$/.test(input[1].value) === false || input[1].value == '') {
+	// if (/^[a-z0-9]{4,}\@[a-z]{4,}\.[a-z]{3,}(\.[a-z]{2,})?$/.test(input[1].value) === false || input[1].value == '') {
 	// 	alert('Por favor insira um ' + input[1].name + ' válido');
 	// 	input[1].style.border = '1px solid red';
 	// 	event.preventDefault();
