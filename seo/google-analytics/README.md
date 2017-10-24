@@ -111,3 +111,4 @@ A seção audiência é auto-explicativa e a partir do Painel Overview é possí
 
 - https://support.google.com/analytics/answer/1009618?hl=pt-BR
 - https://support.google.com/analytics/answer/1102152?hl=pt-BR
+- https://support.google.com/analytics/answer/6367342?hl=pt-BR
