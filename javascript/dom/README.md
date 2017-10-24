@@ -1,4 +1,4 @@
-# Aula 09 - Modelo de Objeto de Documento (DOM)
+# Modelo de Objeto de Documento (DOM)
 
 O acrônimo **DOM** vem do inglês *Document Object Model* é responsável por manipular elementos de uma página web tornando-o acessível através do objeto `window.document`.
 

@@ -1,4 +1,4 @@
-# Aula 08 - Expressões Regulares
+# Expressões Regulares
 
 Provavelmente essa é a primeira vez que estamos falando de *Expresses Regulares* em nosso curso. É importante salientar que este assunto é ***MUITO*** extenso e nos tomaria horas e mais horas de estudo para dominar completamente tal recurso.
 
