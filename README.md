@@ -16,7 +16,7 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 	- [Aula 09 - Modelo de Objeto de Documento (DOM)](./javascript/aula-09/)
 	- [Aula 10 - Validação de Formulários](./javascript/aula-10/)
 - [SEO](./seo)
-	- [Google Analytics](./seo/google-analytics)
+	- [Google Analytics](./seo/google-analytics/README.md#google-analytics)
 - [Web Design Responsivo](./web-design-responsivo)
 - [Controladores de Versão](./versionamento-de-projetos)
 
