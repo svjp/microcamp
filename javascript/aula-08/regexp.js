@@ -10,7 +10,10 @@ var validacaoCPF = function validacaoCPF(value) {
   return criterios.test(value);
 };
 
-/** Acionando um evento no botão #enviar para ativar ambas funções validacaoCPF() e validacaoCEP() */
+/**
+ * Adicionando um evento no botão #enviar para ativar ambas funções
+ * validacaoCPF() e validacaoCEP()
+ */
 document.querySelector('#enviar').addEventListener('click', function() {
   var cep = document.querySelector('input[name="cep"]').value,
       cpf = document.querySelector('input[name="cpf"]').value;
