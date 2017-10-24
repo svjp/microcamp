@@ -1,7 +1,7 @@
 /** Validação dos campos do formulário cadastro */
 document.querySelector('#cadastro').addEventListener('submit', function(event) {
 	var input = document.querySelectorAll('input'),
-	    criterios = {
+			criterios = {
 				'nome': new RegExp(/^[A-Za-zà-ú_ ]{3,}$/),
 				'email': new RegExp(/^[a-z0-9]{4,}\@[a-z]{4,}\.[a-z]{3,}(\.[a-z]{2,})?$/),
 				'data': new RegExp(/^[0-9]{4}\-[0-9]{2}\-[0-9]{2}$/),
