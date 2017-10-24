@@ -13,7 +13,7 @@ var validacaoCPF = function validacaoCPF(value) {
 /** Acionando um evento no botão #enviar para ativar ambas funções validacaoCPF() e validacaoCEP() */
 document.querySelector('#enviar').addEventListener('click', function() {
   var cep = document.querySelector('input[name="cep"]').value,
-    cpf = document.querySelector('input[name="cpf"]').value;
+      cpf = document.querySelector('input[name="cpf"]').value;
 
   if (validacaoCPF(cpf) && validacaoCEP(cep)) {
     console.log('CEP e CPF Válidos');
