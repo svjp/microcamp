@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-	<meta charset="UTF-8">
-	<title>Objeto Window</title>
-	<script>
-		var novaJanela;
-		
-		function novaPopUp() {
-			window.open('propaganda.html', 'popup', 'width=600,height=530,scrollbar=NO');
-		}
+  <meta charset="UTF-8">
+  <title>Objeto Window</title>
+  <script>
+    var novaJanela;
+    
+    function novaPopUp() {
+      window.open('propaganda.html', 'popup', 'width=600,height=530,scrollbar=NO');
+    }
 
 
-		function janela(URL) {
-			novaJanela = window.open(URL, 'janelaPopUp', 'width=300,height=300,scrollbars=NO');;
-		}
+    function janela(URL) {
+      novaJanela = window.open(URL, 'janelaPopUp', 'width=300,height=300,scrollbars=NO');;
+    }
 
-		function VerificaJanela() {
-			if (!novaJanela) {
-				alert('A janela não foi carregada!');
-			} else if (novaJanela.closed) {
-				alert('A janela foi fechada');
-			} else {
-				alert('A janela esta carregada');
-			}
-		}
-	</script>
+    function VerificaJanela() {
+      if (!novaJanela) {
+        alert('A janela não foi carregada!');
+      } else if (novaJanela.closed) {
+        alert('A janela foi fechada');
+      } else {
+        alert('A janela esta carregada');
+      }
+    }
+  </script>
 </head>
 <body>
 

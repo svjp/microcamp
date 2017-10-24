@@ -1,73 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Validação do Formulário</title>
-	<style>
-		* {
-			box-sizing: border-box;
-		}
+  <meta charset="UTF-8">
+  <title>Validação do Formulário</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-		.container {
-			width: 500px;
-			margin: 0 auto;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			margin-top: -364px;
-			padding: 104px 0;
-			margin-left: -260px;
-		}
+    .container {
+      width: 500px;
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -364px;
+      padding: 104px 0;
+      margin-left: -260px;
+    }
 
-		form input {
-			width: 100%;
-			display: block;
-			padding: 20px;
-			margin-bottom: 30px;
-		}
+    form input {
+      width: 100%;
+      display: block;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
 
-		form input[type="submit"] {
-			background: #222222;
-			color: #ffffff;
-			border: 0;
-			transition: .3s;
-			outline: 0;
-		}
+    form input[type="submit"] {
+      background: #222222;
+      color: #ffffff;
+      border: 0;
+      transition: .3s;
+      outline: 0;
+    }
 
-		form input[type="submit"]:hover {
-			background: none;
-			color: #222222;
-			border: 2px solid #222222;
-			transition: .3s;
-		}
+    form input[type="submit"]:hover {
+      background: none;
+      color: #222222;
+      border: 2px solid #222222;
+      transition: .3s;
+    }
 
-		span {
-			padding: 10px 20px;
-			float: left;
-			background: red;
-			color: #ffffff;
-		}
-	</style>
+    span {
+      padding: 10px 20px;
+      float: left;
+      background: red;
+      color: #ffffff;
+    }
+  </style>
 </head>
 <body>
 
 <div class="container">
-	<h1>Formulário de Contato</h1>
-	<form action="#" id="cadastro" method="post">
-		<label for="Nome">
-			<input type="text" name="nome" placeholder="Nome">
-		</label>
-		<label for="E-mail">
-			<input type="text" name="email" placeholder="E-mail">
-		</label>
-		<label for="Data">
-			<input type="date" name="data" placeholder="Data">
-		</label>
-		<label for="CNPJ">
-			<input type="text" name="cnpj" placeholder="CNPJ">
-		</label>
-		<input type="submit">
-	</form>
+  <h1>Formulário de Contato</h1>
+  <form action="#" id="cadastro" method="post">
+    <label for="Nome">
+      <input type="text" name="nome" placeholder="Nome">
+    </label>
+    <label for="E-mail">
+      <input type="text" name="email" placeholder="E-mail">
+    </label>
+    <label for="Data">
+      <input type="date" name="data" placeholder="Data">
+    </label>
+    <label for="CNPJ">
+      <input type="text" name="cnpj" placeholder="CNPJ">
+    </label>
+    <input type="submit">
+  </form>
 </div>
 
 <script src="validation.js"></script>
