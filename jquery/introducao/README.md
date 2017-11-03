@@ -10,8 +10,8 @@ O jQuery é uma biblioteca de *consultas* utilizando o JavaScript, daí vem o no
 - [Produção vs Desenvolvimento](#produ%C3%A7%C3%A3o-vs-desenvolvimento)
 - [Content Delivery Network (CDN)](#content-delivery-network-cdn)
 - [Inicializando um arquivo jQuery](#inicializando-um-arquivo-jquery)
-- [Função Global]()
-- [Referências](#referencia)
+- [Função Global](#fun%C3%A7%C3%A3o-global)
+- [Referências](#refer%C3%AAncias)
 
 ## Qual a sua utilidade?
 
@@ -43,7 +43,7 @@ jQuery(function($) {
 });
 ```
 
-Em verses mais antigas do jQuery se utilizava bastante a seguinte expressão:
+Em versões mais antigas do jQuery se utilizava bastante a seguinte expressão:
 
 ```javascript
 $(document).ready(function() {
@@ -53,7 +53,7 @@ $(document).ready(function() {
 
 ## Função Global
 
-A biblioteca jQuery define uma única função global chamada `jQuery()`. Essa função é utilizada com tanta frequência que a biblioteca também defne o símbolo global `$` como atalho para ela.
+A biblioteca jQuery define uma única função global chamada `jQuery()`. Essa função é utilizada com tanta frequência que a biblioteca também define o símbolo global `$` como atalho para ela.
 
 #### Tipos de Seleção
 
