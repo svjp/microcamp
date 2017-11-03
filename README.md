@@ -15,6 +15,8 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 	- [Expressões Regulares](./javascript/expressoes-regulares/README.md#express%C3%B5es-regulares)
 	- [Modelo de Objeto de Documento (DOM)](./javascript/dom/README.md#modelo-de-objeto-de-documento-dom)
 	- [Validação de Formulários](./javascript/validacao-de-formularios/)
+- [jQuery](./jquery/)
+	- [Introdução](./jquery/introducao/)
 - [SEO](./seo/README.md#sum%C3%A1rio)
 	- [Google Analytics](./seo/google-analytics/README.md#google-analytics)
 - [Web Design Responsivo](./web-design-responsivo)
