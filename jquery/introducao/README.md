@@ -10,7 +10,7 @@ O jQuery é uma biblioteca de *consultas* utilizando o JavaScript, daí vem o no
 - [Produção vs Desenvolvimento](#produ%C3%A7%C3%A3o-vs-desenvolvimento)
 - [Content Delivery Network (CDN)](#content-delivery-network-cdn)
 - [Inicializando um arquivo jQuery](#inicializando-um-arquivo-jquery)
-    - [Qual a diferença entre IIFE e `$(document).ready()`?](#qual-a-diferen%C3%A7a-entre-iife-e-documentready)
+- [Função Global]()
 - [Referências](#referencia)
 
 ## Qual a sua utilidade?
@@ -35,7 +35,15 @@ O [CDN](https://cdnjs.com) é uma rede de servidores proxy onde fornecem URLs pa
 
 ## Inicializando um arquivo jQuery
 
-Existem duas maneiras de inicializarmos um arquivo jQuery, o primeiro é realizando uma consulta diretamente no nosso elemento *document* verificando se ele foi carregado (ou se ele está *ready*):
+Para inicializar um documento jQuery utiliza-se a função global junto a uma callback anônima.
+
+```javascript
+jQuery(function($) {
+    // meu código vem aqui
+});
+```
+
+Em verses mais antigas do jQuery se utilizava bastante a seguinte expressão:
 
 ```javascript
 $(document).ready(function() {
@@ -43,17 +51,42 @@ $(document).ready(function() {
 });
 ```
 
-A segunda maneira é fazendo uso de [IIFE](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression), que basicamente é uma função da qual é executada no momento que é definida:
+## Função Global
+
+A biblioteca jQuery define uma única função global chamada `jQuery()`. Essa função é utilizada com tanta frequência que a biblioteca também defne o símbolo global `$` como atalho para ela.
+
+#### Tipos de Seleção
+
+No jQuery existem três maneiras de selecionarmos um elemento através da função global `jQuery()` ou `$()`.
+
+1. A primeira é referenciar o elemento através de um seletor CSS (tal como uma classe ou id), dessa forma, é retornado um objeto com as proprieda do elemento (ou elementos) de tal seletor.
 
 ```javascript
-(function($) {
-    // meu código vem aqui
-})();
+jQuery(function($) {
+    console.log($('.minha-classe'));
+});
 ```
 
-#### Qual a diferença entre IIFE e `$(document).ready()`?
+2. A segunda é empacotar objetos do tipo **Element**, **Document** ou **Window** a função global, retornando o objeto em sí. 
 
-Se você pretende usar o jQuery para manipular o DOM ou algo relacionado aos elementos da sua página, utlize o `$(document).ready()`, agora, se você pretende desenvolver algum plugin, extensão ou mesmo uma funcionalidade extra com a finalidade de complementar o jQuery, utilize o IIFE.
+> Quando se está trabalhando com jQuery é considerado uma boa prática fazer esses empacotamentos, para evitar chamada de métodos do DOM puro.
+
+```javascript
+jQuery(function($) {
+    console.log($(window));
+});
+```
+
+3. A terceira é referenciar através de uma *string* um elemento HTML, se estiver utilizando o atalho `$()` é possível passar um segundo parâmetro (também chamado de contexto), especificando do que se trata a consulta.
+
+```javascript
+jQuery(function($) {
+    var imagem = $('img', {
+        src: 'minha-url',
+        alt: 'Imagem'
+    });
+});
+```
 
 ## Referências
 
