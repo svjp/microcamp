@@ -16,7 +16,7 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 	- [Modelo de Objeto de Documento (DOM)](./javascript/dom/README.md#modelo-de-objeto-de-documento-dom)
 	- [Validação de Formulários](./javascript/validacao-de-formularios/)
 - [jQuery](./jquery/)
-	- [Introdução](./jquery/introducao/)
+	- [Introdução ao jQuery](./jquery/introducao/)
 - [SEO](./seo/README.md#sum%C3%A1rio)
 	- [Google Analytics](./seo/google-analytics/README.md#google-analytics)
 - [Web Design Responsivo](./web-design-responsivo)
