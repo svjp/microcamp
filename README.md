@@ -17,6 +17,7 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 	- [Validação de Formulários](./javascript/validacao-de-formularios/)
 - [jQuery](./jquery/)
 	- [Introdução ao jQuery](./jquery/introducao/README.md#introdução-ao-jquery)
+	- [Hierarquia de Seletores](./jquery/hierarquia-de-seletores/README.md#hierarquia-de-seletores)
 - [SEO](./seo/README.md#sum%C3%A1rio)
 	- [Google Analytics](./seo/google-analytics/README.md#google-analytics)
 - [Web Design Responsivo](./web-design-responsivo)
