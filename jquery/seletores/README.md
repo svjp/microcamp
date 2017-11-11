@@ -34,7 +34,7 @@ Assim como em uma árvore genealógica, cada elemento HTML possuí uma hierarqui
 
 Utilizando o exemplo acima podemos consultar elementos através dos seletores:
 
-- O seletor descendente encadeia múltiplos elementos em sua declaração:
+- O **seletor descendente** encadeia múltiplos elementos em sua declaração:
 
 ```javascript
 /**
@@ -44,7 +44,7 @@ Utilizando o exemplo acima podemos consultar elementos através dos seletores:
 $('main section span').css('background-color', 'yellow');
 ```
 
-- O seletor filho retorna o primeiro elemento depois de `>` que é filho do que há antes do `>`
+- O **seletor filho** retorna o primeiro elemento depois de `>` que é filho do que há antes do `>`
 
 
 ```javascript
@@ -55,7 +55,7 @@ $('main section span').css('background-color', 'yellow');
 $('main > section').css('background-color', 'yellow');
 ```
 
-- O seletor adjacente seguinte consulta todo elemento depois do `+` que precede o que vem antes do `+`
+- O **seletor adjacente seguinte** consulta todo elemento depois do `+` que precede o que vem antes do `+`
 
 ```javascript
 /**
@@ -65,7 +65,7 @@ $('main > section').css('background-color', 'yellow');
 $('main section + aside').css('background-color', 'yellow');
 ```
 
-- O seletor de irmão próximo consulta todo elemento depois de `~` como irmão do que vem antes do `~`
+- O **seletor irmão próximo** consulta todo elemento depois de `~` como irmão do que vem antes do `~`
 
 
 ```javascript
