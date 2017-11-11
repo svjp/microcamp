@@ -9,7 +9,7 @@ Na [aula passada](https://github.com/svjp/microcamp/blob/master/jquery/introduca
     - Seletor Filho
     - Seletor Adjacente Seguinte
     - Seletor Irmão Próximo
-- [Referências]()
+- [Referências](#referências)
 
 ## Hierarquia de Seletores
 
