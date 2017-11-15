@@ -21,6 +21,7 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 - [SEO](./seo/README.md#sum%C3%A1rio)
 	- [Google Analytics](./seo/google-analytics/README.md#google-analytics)
 - [Web Design Responsivo](./web-design-responsivo)
+- [CSS Grids](./css-grids)
 - [Controladores de Versão](./versionamento-de-projetos)
 
 ## Referências
