@@ -21,3 +21,5 @@ Basicamente todos os seletores do CSS funcionarão no jQuery, os principais são
 - :first
 - :focus
 - :gt
+
+## `:animated`
