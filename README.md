@@ -30,6 +30,7 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 - JavaScript
 	- Guias
 		- https://github.com/braziljs/js-the-right-way
+		- https://github.com/rwaldron/idiomatic.js
 	- Livros
 		- https://github.com/braziljs/eloquente-javascript
 	- Programadores
