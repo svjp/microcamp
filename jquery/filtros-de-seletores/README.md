@@ -20,7 +20,7 @@ Basicamente todos os seletores do CSS funcionarão no jQuery, os principais são
 - [:even](#even)
 - [:first](#first)
 - [:focus](#focus)
-- :gt
+- [:gt](#gt)
 - [Referências](#referencias)
 
 ## `:animated`
