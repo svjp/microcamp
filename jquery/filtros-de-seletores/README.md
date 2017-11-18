@@ -21,7 +21,7 @@ Basicamente todos os seletores do CSS funcionarão no jQuery, os principais são
 - [:first](#first)
 - [:focus](#focus)
 - [:gt](#gt)
-- [Referências](#referencias)
+- [Referências](#referências)
 
 ## `:animated`
 
