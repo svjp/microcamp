@@ -41,3 +41,7 @@ jQuery(function() {
   });
 });
 ```
+
+## Referências
+
+- http://api.jquery.com/slidetoggle/
