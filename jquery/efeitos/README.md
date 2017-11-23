@@ -8,6 +8,7 @@ Os efeitos são ~~na minha humilde opinião~~ o coringa para quem ainda não se 
 - [fadeIn()](#fadein)
 - [fadeOut()](#fadeout)
 - [fadeToggle()](#fadetoggle)
+- [fadeTo()]()
 - [hide()](#hide)
 - [show()](#show)
 - [slideDown()]()
@@ -28,6 +29,10 @@ Este efeito é exatamente o oposto de `fadeIn()`, ele fará com que desapareça 
 ## `fadeToggle()`
 
 Este efeito é uma combinação do `fadeIn()` e do `fadeOut()`, ele verifica se o elemento sofreu um *fade in*, se sim, o próximo efeito a ser *trigado* é o *fade out*.
+
+## `fadeTo()`
+
+Nele você controla até quando seu elemento soferá o efeito *fade*.
 
 ## `hide()`
 
@@ -68,3 +73,7 @@ jQuery(function() {
 - http://api.jquery.com/slidetoggle/
 - http://api.jquery.com/hide/
 - http://api.jquery.com/show/
+- http://api.jquery.com/fadetoggle/
+- https://api.jquery.com/fadeTo/
+- http://api.jquery.com/fadein/
+- http://api.jquery.com/fadeout/
