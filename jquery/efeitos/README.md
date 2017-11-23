@@ -14,7 +14,7 @@ Os efeitos são ~~na minha humilde opinião~~ o coringa para quem ainda não se 
 - [slideUp()]()
 - [stop()]()
 - [toggle()]()
-- [Referências]()
+- [Referências](#referências)
 
 ## `slideToggle()`
 
