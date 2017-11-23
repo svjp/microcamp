@@ -17,6 +17,14 @@ Os efeitos são ~~na minha humilde opinião~~ o coringa para quem ainda não se 
 - [toggle()]()
 - [Referências](#referências)
 
+## `hide()`
+
+Este efeito fará desaparecer o elemento assim como a propriedade CSS `display: none`. Tanto `$('.hide-me').css('display', 'none')` como `$('.hide-me').hide()` farão com que o elemento com a classe *hide-me* desapareça.
+
+## `show()`
+
+Este efeito simplesmente fará aparecer o elemento assim como a propriedade CSS `display: block`. O código `$('.show-me').css('display', 'block')` é equivalente a `$('.show-me').show()`. Ambos farão aparecer o elemento com a classe `.show-me` apenas seguimos caminhos diferentes.
+
 ## `slideToggle()`
 
 Este efeito é a combinação entre `slideUp()` e `slideDown()`, ele aceita dois parâmetros, sendo eles:
