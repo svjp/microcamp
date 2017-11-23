@@ -17,6 +17,14 @@ Os efeitos são ~~na minha humilde opinião~~ o coringa para quem ainda não se 
 - [toggle()]()
 - [Referências](#referências)
 
+## `fadeIn()`
+
+Este efeito fará com que a imagem apareça gradualmente controlando a opacidade de tal elemento, assim quando completa, a imagem e/ou texto é mostrada.
+
+## `fadeOut()`
+
+Este efeito é exatamente o oposto de `fadeIn()`, ele fará com que desapareça o elemento gradualmente até que ele esteja totalmente transparente.
+
 ## `hide()`
 
 Este efeito fará desaparecer o elemento assim como a propriedade CSS `display: none`. Tanto `$('.hide-me').css('display', 'none')` como `$('.hide-me').hide()` farão com que o elemento com a classe *hide-me* desapareça.
@@ -54,3 +62,5 @@ jQuery(function() {
 ## Referências
 
 - http://api.jquery.com/slidetoggle/
+- http://api.jquery.com/hide/
+- http://api.jquery.com/show/
