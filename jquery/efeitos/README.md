@@ -12,6 +12,7 @@ Os efeitos são ~~na minha humilde opinião~~ o coringa para quem ainda não se 
 - [show()]()
 - [slideDown()]()
 - [slideUp()]()
+- [slideToggle()](#slidetoggle)
 - [stop()]()
 - [toggle()]()
 - [Referências](#referências)
