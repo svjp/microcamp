@@ -5,8 +5,8 @@ Os efeitos são ~~na minha humilde opinião~~ o coringa para quem ainda não se 
 ## Sumário
 
 - [animate()]()
-- [fadeIn()]()
-- [fadeOut()]()
+- [fadeIn()](#fadein)
+- [fadeOut()](#fadeout)
 - [fadeToggle()]()
 - [hide()](#hide)
 - [show()](#show)
