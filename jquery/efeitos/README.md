@@ -7,7 +7,7 @@ Os efeitos são ~~na minha humilde opinião~~ o coringa para quem ainda não se 
 - [animate()]()
 - [fadeIn()](#fadein)
 - [fadeOut()](#fadeout)
-- [fadeToggle()]()
+- [fadeToggle()](#fadetoggle)
 - [hide()](#hide)
 - [show()](#show)
 - [slideDown()]()
