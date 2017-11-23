@@ -25,6 +25,10 @@ Este efeito fará com que a imagem apareça gradualmente controlando a opacidade
 
 Este efeito é exatamente o oposto de `fadeIn()`, ele fará com que desapareça o elemento gradualmente até que ele esteja totalmente transparente.
 
+## `fadeToggle()`
+
+Este efeito é uma combinação do `fadeIn()` e do `fadeOut()`, ele verifica se o elemento sofreu um *fade in*, se sim, o próximo efeito a ser *trigado* é o *fade out*.
+
 ## `hide()`
 
 Este efeito fará desaparecer o elemento assim como a propriedade CSS `display: none`. Tanto `$('.hide-me').css('display', 'none')` como `$('.hide-me').hide()` farão com que o elemento com a classe *hide-me* desapareça.
