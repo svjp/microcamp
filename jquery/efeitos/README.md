@@ -4,7 +4,7 @@ Os efeitos são ~~na minha humilde opinião~~ o coringa para quem ainda não se 
 
 ## Sumário
 
-- [animate()]()
+- [animate()](#animate)
 - [fadeIn()](#fadein)
 - [fadeOut()](#fadeout)
 - [fadeToggle()](#fadetoggle)
@@ -17,6 +17,17 @@ Os efeitos são ~~na minha humilde opinião~~ o coringa para quem ainda não se 
 - [stop()]()
 - [toggle()]()
 - [Referências](#referências)
+
+## `animate()`
+
+Acredito que este efeito e autoexplicativo, ele aceita quatro parâmetros distintos, sendo eles:
+
+- **Propriedades** que são basicamente as propriedades do CSS que ditarão o que nosso elemento irá fazer durante a animação;
+- **Duração** determina o tempo da animação;
+- ***Easing*** determina o tipo de animação que ocorrerá;
+- **Completo** é executado quando a animação finalizar;
+
+> Para saber mais sobre os valores desses parâmetros, acesse o link da referência para o `animate()` no final da página.
 
 ## `fadeIn()`
 
@@ -77,3 +88,4 @@ jQuery(function() {
 - https://api.jquery.com/fadeTo/
 - http://api.jquery.com/fadein/
 - http://api.jquery.com/fadeout/
+- http://api.jquery.com/animate/
