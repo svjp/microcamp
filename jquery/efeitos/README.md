@@ -57,6 +57,14 @@ Este efeito simplesmente fará aparecer o elemento assim como a propriedade CSS 
 
 O efeito *toggle* é a combinação dos efeitos **hide** e **show**, ele altera entre um e outro, se está visivel, faça-o desaparecer.
 
+## `slideDown()`
+
+O método `slideDown()` animará a altura de seu elemento correspondente. Isso fará com que as partes abaixo deste elemento acompanhe o mesmo, abrindo caminho para os itens visiveis.
+
+## `slideUp()`
+
+O método `slideUp()` também anima a altura de seu elemento correspondente, sua funcionalidade é o inverso a `slideDown()`.
+
 ## `slideToggle()`
 
 Este efeito é a combinação entre `slideUp()` e `slideDown()`, ele aceita dois parâmetros, sendo eles:
@@ -96,3 +104,5 @@ jQuery(function() {
 - http://api.jquery.com/fadeout/
 - http://api.jquery.com/animate/
 - http://api.jquery.com/toggle/
+- http://api.jquery.com/slidedown/
+- http://api.jquery.com/slideup/
