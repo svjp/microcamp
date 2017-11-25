@@ -93,6 +93,10 @@ jQuery(function() {
 
 > É importante pensar no *toggle* como uma alternância entre dois estados. Seguindo este conceito o `slideToggle()` faz a alternância entre o estado `slideUp()` e `slideDown()`. Tanto o `fadeToggle()` e o `toggle()` seguem a mesma linha.
 
+## `stop()`
+
+Quando `stop()` é chamado em um elemento, a animação atual nele é imediatamente parada.
+
 ## Referências
 
 - http://api.jquery.com/slidetoggle/
@@ -106,3 +110,4 @@ jQuery(function() {
 - http://api.jquery.com/toggle/
 - http://api.jquery.com/slidedown/
 - http://api.jquery.com/slideup/
+- https://api.jquery.com/stop/
