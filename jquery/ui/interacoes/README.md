@@ -4,14 +4,14 @@ As interações são métodos que nos ajudam a trabalhar com os elementos DOM de
 
 ## Sumário
 
-- [.draggable()](#draggabble)
-- [.droppable()](#droppable)
-- [.resizable()](#resizable)
-- [.selectable()](#selectable)
-- [.sortable()](#sortable)
+- [$.draggable()](#draggabble)
+- [$.droppable()](#droppable)
+- [$.resizable()](#resizable)
+- [$.selectable()](#selectable)
+- [$.sortable()](#sortable)
 - [Referências](#referências)
 
-## `.draggabble()`
+## `$.draggabble()`
 
 Este método permite que o elemento DOM do qual recebe `.draggable()` torne-se movível (a.k.a. draggable) utilizando o mouse.
 
@@ -27,7 +27,7 @@ jQuery(function($) {
 
 Perceba que eu utilizei um método como parâmetro de `.draggable()` o `.drag()`, ele nos permite *triggar* uma ação no momento em que estamos "arrastando" o elemento DOM.
 
-## `.droppable()`
+## `$.droppable()`
 
 Este método deixa o elemento DOM do qual recebe `.droppable()` o deixa dropável, no sentido que, ele aceita qualquer elemento "arrastável" que o usuário solte com o mouse dentro do elemento "dropável".
 
@@ -45,7 +45,7 @@ jQuery(function($) {
 
 O método `.drop()` é obrigatório para que quando o `.elemento-um` seja aceito dentro do `.elemento-dois`, algo possa acontecer, em nosso exemplo, irá mostrar algumas informações sobre o evento em sí e também alterará a cor de fundo do `.elemento-um` para amarelo.
 
-## `.resizable()`
+## `$.resizable()`
 
 Este método permite mudar o tamanho do elemento DOM onde `.resizable()` é chamado.
 
@@ -55,7 +55,7 @@ jQuery(function($) {
 });
 ```
 
-## `.selectable()`
+## `$.selectable()`
 
 Este método interage com o elemento DOM de forma similar a uma seleção de um sistema operacional (Mac, Linux e ou Windows). O estilo das seleções são controladas através de duas classes CSS pré-definidas pelo jQuery UI, sendo elas a `.ui-selecting` e `.ui-selected`, que são automáticamente adicionadas ao elemento que o usuário **selecionou ou está selecionando**.
 
@@ -65,9 +65,21 @@ jQuery(function($) {
 });
 ```
 
-## `.sortable()`
+## `$.sortable()`
+
+Este método torna todos os filhos o elemento DOM que recebe `.sortable()` sortiveis.
+
+```javascript
+jQuery(function($) {
+    $('.elemento-sortable').sortable();
+});
+```
+
+---
 
 > Perceba que em alguns métodos das interações nós criamos um parâmetro chamado **event**, este parâmetro nos retorna os dados e/ou informações sobre o evento atual triggado.
+
+---
 
 ## Referências
 
