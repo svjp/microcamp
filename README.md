@@ -11,8 +11,9 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 ## Sumário
 
 - [JavaScript](./javascript/)
+	- [Tipos de Dados](./javascript/tipos-de-dados/) (Pendente)
 	- [Objeto Window](./javascript/objeto-window/)
-	- [Expressões Regulares](./javascript/expressoes-regulares/README.md#express%C3%B5es-regulares)
+	- [Expressões Regulares](./javascript/expressoes-regulares/README.md#express%C3%B5es-regulares) (Pendente)
 	- [Modelo de Objeto de Documento (DOM)](./javascript/dom/README.md#modelo-de-objeto-de-documento-dom)
 	- [Validação de Formulários](./javascript/validacao-de-formularios/)
 - [jQuery](./jquery/)
