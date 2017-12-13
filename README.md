@@ -20,6 +20,9 @@ Muitas vezes os conteúdos trabalhados em sala de aula NÃO refletem as necessid
 	- [Seletores](./jquery/seletores/README.md#seletores)
 	- [Filtros de Seletores](./jquery/filtros-de-seletores/README.md#filtros-de-seletores)
 	- [Efeitos](./jquery/efeitos/README.md#efeitos)
+	- Interface do Usuário
+		- [Interações](./jquery/ui/interacoes/README.md#interacoes)
+		- [Widgets](./jquery/ui/widgets/README.md#widgets)
 - [SEO](./seo/README.md#sum%C3%A1rio)
 	- [Google Analytics](./seo/google-analytics/README.md#google-analytics)
 - [Web Design Responsivo](./web-design-responsivo)
