@@ -47,7 +47,7 @@ O método `.drop()` é obrigatório para que quando o `.elemento-um` seja aceito
 
 ## `.resizable()`
 
-Este método permite mudar o tamanho o elemento DOM onde `.resizable()` é chamado. É importante salientar que os eixos trabalhados são **x** e **y**, sendo o *x* inicialmente apenas para direita e o *y* inicialmente apenas para a esquerda.
+Este método permite mudar o tamanho do elemento DOM onde `.resizable()` é chamado.
 
 ```javascript
 jQuery(function($) {
