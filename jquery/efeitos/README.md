@@ -4,21 +4,21 @@ Os efeitos são ~~na minha humilde opinião~~ o coringa para quem ainda não se 
 
 ## Sumário
 
-- [animate()](#animate)
-- [fadeIn()](#fadein)
-- [fadeOut()](#fadeout)
-- [fadeToggle()](#fadetoggle)
-- [fadeTo()](#fadeto)
-- [hide()](#hide)
-- [show()](#show)
-- [slideDown()](#slidedown)
-- [slideUp()](#slideup)
-- [slideToggle()](#slidetoggle)
-- [stop()]()
-- [toggle()](#toggle)
+- [$.animate()](#animate)
+- [$.fadeIn()](#fadein)
+- [$.fadeOut()](#fadeout)
+- [$.fadeToggle()](#fadetoggle)
+- [$.fadeTo()](#fadeto)
+- [$.hide()](#hide)
+- [$.show()](#show)
+- [$.slideDown()](#slidedown)
+- [$.slideUp()](#slideup)
+- [$.slideToggle()](#slidetoggle)
+- [$.stop()]()
+- [$.toggle()](#toggle)
 - [Referências](#referências)
 
-## `animate()`
+## `$.animate()`
 
 Acredito que este efeito é autoexplicativo, ele aceita quatro parâmetros distintos, sendo eles:
 
@@ -29,43 +29,43 @@ Acredito que este efeito é autoexplicativo, ele aceita quatro parâmetros disti
 
 > Para saber mais sobre os valores desses parâmetros, acesse o link da referência para o `animate()` no final da página.
 
-## `fadeIn()`
+## `$.fadeIn()`
 
 Este efeito fará com que a imagem apareça gradualmente controlando sua opacidade, quando completo, o elemento é mostrado.
 
-## `fadeOut()`
+## `$.fadeOut()`
 
 Este efeito é exatamente o oposto de `fadeIn()`, ele fará com que o elemento desapareça gradualmente até que esteja completamente transparente.
 
-## `fadeToggle()`
+## `$.fadeToggle()`
 
 Este efeito é uma combinação do `fadeIn()` e do `fadeOut()`, ele verifica se o elemento sofreu um *fade in*, se sim, o próximo efeito a ser *trigado* é o *fade out* e vice-versa.
 
-## `fadeTo()`
+## `$.fadeTo()`
 
 Este efeito controla até quando seu elemento soferá o *fading*, trabalhado indiretamente através da propriedade opacidade do CSS.
 
-## `hide()`
+## `$.hide()`
 
 Este efeito fará desaparecer o elemento assim como a propriedade CSS `display: none`. Tanto `$('.hide-me').css('display', 'none')` como `$('.hide-me').hide()` farão com que o elemento com a classe `.hide-me` desapareça.
 
-## `show()`
+## `$.show()`
 
 Este efeito simplesmente fará aparecer o elemento assim como a propriedade CSS `display: block`. O código `$('.show-me').css('display', 'block')` é equivalente a `$('.show-me').show()`. Ambos farão o elemento com a classe `.show-me` aparecer.
 
-## `toggle()`
+## `$.toggle()`
 
 O efeito *toggle* é a combinação dos efeitos **hide** e **show**, ele altera entre um e outro, se está visivel, faça-o desaparecer.
 
-## `slideDown()`
+## `$.slideDown()`
 
 O método `slideDown()` animará a altura de seu elemento correspondente. Isso fará com que as partes abaixo deste elemento acompanhe o mesmo, abrindo caminho para os itens visiveis.
 
-## `slideUp()`
+## `$.slideUp()`
 
 O método `slideUp()` também anima a altura de seu elemento correspondente, sua funcionalidade é o inverso a `slideDown()`.
 
-## `slideToggle()`
+## `$.slideToggle()`
 
 Este efeito é a combinação entre `slideUp()` e `slideDown()`, ele aceita dois parâmetros, sendo eles:
 
@@ -93,7 +93,7 @@ jQuery(function() {
 
 > É importante pensar no *toggle* como uma alternância entre dois estados. Seguindo este conceito o `slideToggle()` faz a alternância entre o estado `slideUp()` e `slideDown()`. Tanto o `fadeToggle()` e o `toggle()` seguem a mesma linha.
 
-## `stop()`
+## `$.stop()`
 
 Quando `stop()` é chamado em um elemento, a animação atual nele é imediatamente parada.
 
