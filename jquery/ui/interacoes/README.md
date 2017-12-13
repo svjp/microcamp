@@ -43,7 +43,7 @@ jQuery(function($) {
 });
 ```
 
-O método `.drop()` é obrigatório para que quando o `.elemento-um` seja aceito dentro do `.elemento-dois`, algo possa acontecer, em nosso exemplo, irá mostrar algumas informações sobre o evento em sí e também alterará a cor de fundo para amarelo.
+O método `.drop()` é obrigatório para que quando o `.elemento-um` seja aceito dentro do `.elemento-dois`, algo possa acontecer, em nosso exemplo, irá mostrar algumas informações sobre o evento em sí e também alterará a cor de fundo do `.elemento-um` para amarelo.
 
 ## `.resizable()`
 
