@@ -51,7 +51,7 @@ O método `.drop()` é obrigatório para que quando o `.elemento-um` seja aceito
 
 ## `.sortable()`
 
-> Perceba que em todos os métodos das interações nós criamos um parâmetro chamado **event**, este parâmetro nos retorna os dados e/ou informação sobre o evento atual triggado.
+> Perceba que em alguns métodos das interações nós criamos um parâmetro chamado **event**, este parâmetro nos retorna os dados e/ou informações sobre o evento atual triggado.
 
 ## Referências
 
