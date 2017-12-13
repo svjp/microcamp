@@ -13,7 +13,7 @@ As interações são métodos que nos ajudam a trabalhar com os elementos DOM de
 
 ## `.draggabble()`
 
-Este método permite que o elemento DOM do qual `.draggable()` é chamado, o torne possível mover utilizando o mouse.
+Este método permite que o elemento DOM do qual recebe `.draggable()` torne-se movível (a.k.a. draggable) utilizando o mouse.
 
 ```javascript
 jQuery(function($) {
@@ -28,6 +28,22 @@ jQuery(function($) {
 Perceba que eu utilizei um método como parâmetro de `.draggable()` o `.drag()`, ele nos permite *triggar* uma ação no momento em que estamos "arrastando" o elemento DOM.
 
 ## `.droppable()`
+
+Este método deixa o elemento DOM do qual recebe `.droppable()` o deixa dropável, no sentido que, ele aceita qualquer elemento "arrastável" que o usuário solte com o mouse dentro do elemento "dropável".
+
+```javascript
+jQuery(function($) {
+    $('.elemento-um').draggable();
+    $('.elemento-dois').droppable({
+        drop: function(event) {
+            console.log(event);
+            $('.elemento-um').html('Dropado!').css('background-color', 'yellow');
+        }
+    });
+});
+```
+
+O método `.drop()` é obrigatório para que quando o elemento "arrastável" seja aceito dentro de um elemento "dropável", algo possa acontecer, em nosso exemplo, irá mostrar algumas informações sobre o evento em sí e também alterará a cor de fundo para amarelo.
 
 ## `.resizable()`
 
