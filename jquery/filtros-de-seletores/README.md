@@ -15,35 +15,35 @@ Basicamente todos os seletores do CSS funcionarão no jQuery, os principais são
 
 ## Sumário
 
-- [:animated](#animated)
-- [:eq()](#eq)
-- [:even](#even)
-- [:first](#first)
-- [:focus](#focus)
-- [:gt](#gt)
+- [$:animated](#animated)
+- [$:eq()](#eq)
+- [$:even](#even)
+- [$:first](#first)
+- [$:focus](#focus)
+- [$:gt](#gt)
 - [Referências](#referências)
 
-## `:animated`
+## `$:animated`
 
 Seleciona todos os elementos que estão sendo animados no momento no qual o seletor é acionado.
 
-## `:eq`
+## `$:eq`
 
 Seleciona o elemento a partir do ìndice definido dentro em `:eq(índice)`. Este seletor é uma variação do `:nth-child()`, a diferença entre eles é que o `:eq()` NÃO realiza consultas recursivas.
 
-## `:even`
+## `$:even`
 
 Seleciona todos os elementos que são pares.
 
-## `:first`
+## `$:first`
 
 Seleciona o primeiro elemento de seu tipo, sua funcionalidade é a mesma do pseudo-seletor CSS `:nth-of-type(1)`.
 
-## `:focus`
+## `$:focus`
 
 Seleciona o elemento do qual o usuário está interagindo no mesmo.
 
-## `:gt`
+## `$:gt`
 
 Seleciona todos os elementos de seu tipo a partir do índice passado `:gt(índice)`.
 
