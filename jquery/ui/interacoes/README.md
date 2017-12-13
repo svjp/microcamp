@@ -13,6 +13,20 @@ As interações são métodos que nos ajudam a trabalhar com os elementos DOM de
 
 ## `.draggabble()`
 
+Este método permite que o elemento DOM do qual `.draggable()` é chamado, o torne possível mover utilizando o mouse.
+
+```javascript
+jQuery(function($) {
+    $('.meu-elemento-dom').dragabble({
+        drag: function(event) {
+            console.log(event);
+        }
+    });
+});
+```
+
+Perceba que eu utilizei um método como parâmetro de `.draggable()` o `.drag()`, ele nos permite *triggar* uma ação no momento em que estamos "arrastando" o elemento DOM.
+
 ## `.droppable()`
 
 ## `.resizable()`
@@ -20,6 +34,8 @@ As interações são métodos que nos ajudam a trabalhar com os elementos DOM de
 ## `.selectable()`
 
 ## `.sortable()`
+
+> Perceba que em todos os métodos das interações nós criamos um parâmetro chamado **event**, este parâmetro nos retorna os dados e/ou informação sobre o evento atual triggado.
 
 ## Referências
 
