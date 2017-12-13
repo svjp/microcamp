@@ -51,11 +51,19 @@ Este método permite mudar o tamanho do elemento DOM onde `.resizable()` é cham
 
 ```javascript
 jQuery(function($) {
-    $('.elemento-resize').resizable();
+    $('.elemento-resizable').resizable();
 });
 ```
 
 ## `.selectable()`
+
+Este método interage com o elemento DOM de forma similar a uma seleção de um sistema operacional (Mac, Linux e ou Windows). O estilo das seleções são controladas através de duas classes CSS pré-definidas pelo jQuery UI, sendo elas a `.ui-selecting` e `.ui-selected`, que são automáticamente adicionadas ao elemento que o usuário **selecionou ou está selecionando**.
+
+```javascript
+jQuery(function($) {
+    $('.elemento-selecionavel').selectable();
+});
+```
 
 ## `.sortable()`
 
