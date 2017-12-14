@@ -49,7 +49,7 @@ $('main section span').css('background-color', 'yellow');
 
 ```javascript
 /**
- * Define ao primeiro "section" direto que é filho de "main"
+ * Define todos os "section" que é filho direto de "main"
  * um background-color amarelo.
  */
 $('main > section').css('background-color', 'yellow');
@@ -59,7 +59,7 @@ $('main > section').css('background-color', 'yellow');
 
 ```javascript
 /**
- * Para todos os "aside" que vem depois de uma "section"
+ * Para o primeiro "aside" que vem depois de uma "section"
  * adiciona um background-color amarelo.
  */
 $('main section + aside').css('background-color', 'yellow');
