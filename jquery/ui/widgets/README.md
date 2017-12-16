@@ -4,16 +4,22 @@ São componentes prontos para serem importados em seu site. Existem diversos wid
 
 ## Sumário
 
-- [Autocomplete](#autocomplete)
 - [Accordion](#accordion)
+- [Autocomplete](#autocomplete)
 - [Spinner](#spinner)
 - [Tabs](#tabs)
 - [Tooltip](#tooltip)
 - [Referências](#referências)
 
-## Autocomplete
 ## Accordion
+## Autocomplete
 ## Spinner
 ## Tabs
 ## Tooltip
 ## Referências
+
+- http://jqueryui.com/accordion/
+- http://jqueryui.com/autocomplete/
+- http://jqueryui.com/spinner/
+- http://jqueryui.com/tabs/
+- http://jqueryui.com/tooltip/
